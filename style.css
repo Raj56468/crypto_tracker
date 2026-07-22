@@ -1,37 +1,42 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: black;
+     font-family: 'Poppins', sans-serif;
 }
 
-.main-container {
-    height: 100%;
-    display: flex;
+.container {
+    max-width: 95%;
+    margin: auto;
 }
 
-#navbar {
-    border: 1px solid wheat;
-    border-radius: 60px;
-    height: 50vh;
-    width: 5vw;
-    margin: 3rem 0 3rem 3rem;
-    padding: 1rem;
-}
-
-#list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    cursor: pointer;
-}
-
-.list-items {
-    color: aliceblue;
+a {
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
     list-style: none;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home {
+    color: white;
 }

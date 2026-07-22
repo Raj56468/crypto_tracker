@@ -11,40 +11,33 @@
     />
   </head>
   <body>
-    <div class="main-container">
-      <nav id="navbar">
-        <ul id="list">
-          <li class="list-items"><i class="fa-solid fa-house"></i> Home</li>
-          <li class="list-items">
-            <i class="fa-solid fa-magnifying-glass"></i> Search
-          </li>
-          <li class="list-items">
-            <i class="fa-solid fa-clapperboard"></i> Movies
-          </li>
-          <li class="list-items">
-            <i class="fa-solid fa-bookmark"></i> Watchlist
-          </li>
-          <li class="list-items"><i class="fa-solid fa-user"></i> User</li>
-        </ul>
-      </nav>
-      <div class="hero-section">
-        <h2>Intersteller</h2>
-        <span>13+</span>
-        <span>Sci-Fi</span>
-        <span>Adventure</span>
-        <p>
-          When Earth becomes uninhabitable in the future, a farmer and ex-NASA
-          pilot, Joseph Cooper, is taked to pilot a spacecraft, along with a
-          team of researchers, to find a new planet for humans
-        </p>
+    <section class="home">
+      <div class="headerbg">
+        <header>
+        <div class="container">
+          <div class="navbar flex1">
+            <div class="logo">
+              <img src="assets/logo.png" alt="logo">
+            </div>
+            <nav>
+              <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv Shows</a></li>
+                <li><a href="#">Watchlist</a></li>
+              </ul>
+            </nav>
+            <span class="fa fa-bars" onclick="menuToggle()"></span>
+            <div class="subscribe flex">
+              <i class="fas fa-search"></i>
+              <i id="platbtn" class="fas fa-user"></i>
+              <button>SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+        </header>
       </div>
-      <div class="grid-movies">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
