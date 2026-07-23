@@ -34,29 +34,43 @@
           </div>
         </nav>
       </div>
-      <div class="hero">
-        <div class="hero-section">
-          <div class="user">
-            <div class="img">
-              <img src="assets/makima.jpeg" alt="User" />
-            </div>
-            <div class="fav">
-              <div class="username"><h2>User</h2></div>
+      <div class="main">
+        <div class="container2">
+          <div class="left">
+            <div class="hero">
+              <div class="hero-section">
+                <div class="user">
+                  <div class="img">
+                    <img src="assets/makima.jpeg" alt="User" />
+                  </div>
+                  <div class="fav">
+                    <div class="username"><h2>User</h2></div>
 
-              <h3>Favorites</h3>
-              <div class="spans">
-                <span>BTC</span>
-                <span>ETC</span>
+                    <h3>Favorites</h3>
+                    <div class="spans">
+                      <span>BTC</span>
+                      <span>ETC</span>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="list"></div>
+          </div>
+          <div class="right">
+            <div class="chart-container">
+              <div class="chart-header">
+                <h2 id="coin-name">Bitcoin</h2>
+                <h1 id="current-price">$0</h1>
+                <p id="change">+0%</p>
+              </div>
+              <canvas id="myChart" aria-label="chart" role="img" height="600px" width="1350px"></canvas>
             </div>
           </div>
         </div>
       </div>
-      <div class="main">
-        <div class="left"></div>
-        <div class="right"></div>
-      </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
