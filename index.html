@@ -11,33 +11,52 @@
     />
   </head>
   <body>
-    <section class="home">
-      <div class="headerbg">
-        <header>
-        <div class="container">
-          <div class="navbar flex1">
-            <div class="logo">
-              <img src="assets/logo.png" alt="logo">
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <div class="search">
+            <input id="search" type="text" placeholder="Search Crypto" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <div class="right-nav">
+            <div class="converter">
+              <label id="choose" for="currency">Choose a currency</label>
+              <select name="currency" id="currency">
+                choose a currency
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="CHF">CHF</option>
+              </select>
             </div>
-            <nav>
-              <ul id="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Tv Shows</a></li>
-                <li><a href="#">Watchlist</a></li>
-              </ul>
-            </nav>
-            <span class="fa fa-bars" onclick="menuToggle()"></span>
-            <div class="subscribe flex">
-              <i class="fas fa-search"></i>
-              <i id="platbtn" class="fas fa-user"></i>
-              <button>SUBSCRIBE</button>
+            <div class="logo">CRYPTO TRACKER</div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="hero-section">
+          <div class="user">
+            <div class="img">
+              <img src="assets/makima.jpeg" alt="User" />
+            </div>
+            <div class="fav">
+              <div class="username"><h2>User</h2></div>
+
+              <h3>Favorites</h3>
+              <div class="spans">
+                <span>BTC</span>
+                <span>ETC</span>
+              </div>
             </div>
           </div>
         </div>
-        </header>
       </div>
-    </section>
+      <div class="main">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
