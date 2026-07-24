@@ -14,10 +14,6 @@
     <div class="container">
       <div class="navbar">
         <nav>
-          <div class="search">
-            <input id="search" type="text" placeholder="Search Crypto" />
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-          </div>
           <div class="right-nav">
             <div class="converter">
               <label id="choose" for="currency">Choose a currency</label>
@@ -44,7 +40,7 @@
                     <img src="assets/makima.jpeg" alt="User" />
                   </div>
                   <div class="fav">
-                    <div class="username"><h2>User</h2></div>
+                    <div class="username"><h2>Makima</h2></div>
 
                     <h3>Favorites</h3>
                     <div class="spans">
@@ -55,7 +51,26 @@
                 </div>
               </div>
             </div>
-            <div class="list"></div>
+            <div class="list">
+              <div class="tracker">
+                <div class="div2">
+                  <h4>BTC</h4>
+                  <span id="btc">0</span>
+                </div>
+                <div class="div2">
+                  <h4>ETH</h4>
+                  <span id="eth">0</span>
+                </div>
+                <div class="div2">
+                  <h4>DOGE</h4>
+                  <span id="doge">0</span>
+                </div>
+                <div class="div2">
+                  <h4>SOL</h4>
+                  <span id="sol">0</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="right">
             <div class="chart-container">
@@ -64,7 +79,13 @@
                 <h1 id="current-price">$0</h1>
                 <p id="change">+0%</p>
               </div>
-              <canvas id="myChart" aria-label="chart" role="img" height="600px" width="1350px"></canvas>
+              <canvas
+                id="myChart"
+                aria-label="chart"
+                role="img"
+                height="600px"
+                width="1350px"
+              ></canvas>
             </div>
           </div>
         </div>
