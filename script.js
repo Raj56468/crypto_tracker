@@ -84,6 +84,7 @@ function createChart(labels, prices) {
     });
 }
 
+
 const currencySelector = document.getElementById('currency');
 let currency = 'usd';
 
