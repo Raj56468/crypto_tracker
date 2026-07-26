@@ -147,6 +147,7 @@ async function getData() {
     }
 }
 
+
 document.addEventListener('DOMContentLoaded', () => {
     getData();
     setInterval(getData, 60000);
